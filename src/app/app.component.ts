@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-// import { NgForm } from '@angular/forms';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +11,9 @@ export class AppComponent {
   username!: string;
   password!: string;
 
-  // onSubmit(form: NgForm) {
-  //   // if (form.valid) {
-  //   // }
-  //   console.log('Form Submitted!');
-  // }
+  onSubmit(form: NgForm) {
+    // if (form.valid) {
+    // }
+    console.log('Form Submitted!');
+  }
 }
